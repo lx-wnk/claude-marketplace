@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "lx_wnk-marketplace",
+  "description": "Personal marketplace",
+  "version": "1.0.0",
+  "owner": {
+    "email": "git@jinnoflife.com",
+    "name": "Alex Wink",
+    "url": "https://github.com/lx-wnk/claude-marketplace"
+  },
+  "plugins": [
+    {
+      "name": "agents",
+      "description": "Specialist sub-agents for AI-assisted development, packaged as a Claude Code Plugin.",
+      "repository": "https://github.com/lx-wnk/agents",
+      "license": "MIT",
+      "author": {
+          "name": "Alexander Wink",
+          "email": "git@jinnoflife.com"
+      },
+      "category": "development",
+      "keywords": ["agents", "sub-agents", "development", "ai"],
+      "source": {
+        "source": "github",
+        "repo": "lx-wnk/agents"
+      }
+    },
+    {
+      "name": "skills",
+      "description": "Architecture design/review, component design/review, PR review-and-fix, tech-gazette, obsidian, and agent-context lifecycle skills.",
+      "repository": "https://github.com/lx-wnk/skills",
+      "license": "MIT",
+      "category": "development",
+      "keywords": ["skills", "ai"],
+      "source": {
+        "source": "github",
+        "repo": "lx-wnk/skills"
+      }
+    }
+  ]
+}
