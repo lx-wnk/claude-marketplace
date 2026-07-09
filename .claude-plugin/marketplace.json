@@ -2,7 +2,6 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "lx_wnk-marketplace",
   "description": "Personal marketplace",
-  "version": "1.0.0",
   "owner": {
     "email": "git@jinnoflife.com",
     "name": "Alex Wink",
